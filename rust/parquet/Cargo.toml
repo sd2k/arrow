@@ -29,10 +29,10 @@ build = "build.rs"
 edition = "2018"
 
 [dependencies]
-parquet-format = "~2.6"
+parquet-format = { git = "https://github.com/andygrove/parquet-format-rs", branch = "upgrade-thrift" }
 quick-error = "1.2"
 byteorder = "1"
-thrift = "0.12"
+thrift = "0.13"
 snap = "1.0"
 brotli = "3.3"
 flate2 = "1.0"
